@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Siakad13 {
+public class testing {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         String nama, nim;
@@ -11,7 +11,7 @@ public class Siakad13 {
         System.out.print("masukkan NIM:  ");
         nim = sc.nextLine();
         System.out.print("masukkan kelas:  ");
-       // kelas = sc.nextLine().charAt(0);
+        kelas = sc.nextLine().charAt(0);
         System.out.print("masukkan absen:  ");
         absen = sc.nextByte();
         System.out.print("masukkan nilai kuis: ");
